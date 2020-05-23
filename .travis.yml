@@ -13,6 +13,9 @@ cache:
     - '$HOME/.esy/'
 matrix:
   include:
+    - arch:
+      - amd64
+      - arm64
     - os: linux
       dist: trusty
       sudo: required
